@@ -1,0 +1,11 @@
+.fourth-section-main-col{
+    height: 150vh;
+    margin-top: 10%;
+    text-align: center;
+}
+.fourth-decp-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2vmin;
+    font-weight: 400;
+    width: 50% !important;
+}

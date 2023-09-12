@@ -1,0 +1,1 @@
+export const watchFeatures = ["Always on Display with Digital Crown", "Bluetooth Calling", "Multi Sports Modes", "Sedentary Reminder", "Support Both Android & IOS"]
