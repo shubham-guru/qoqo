@@ -26,6 +26,7 @@
     color: #fff !important;
     font-weight: bold;
     box-shadow: 0 1px 7px -1px #e2201c;
+    width: fit-content;
 }
 .buy-now-pri-btn:hover{
     background-color: #e2201c !important;
@@ -36,6 +37,11 @@
     padding: 5vmin 5vmin;
     font-weight: bold;
     color: #000 !important;
+}
+.smart-watch{
+    position: absolute;
+    top: -20px;
+    right: 0;
 }
 .image-div{
     box-shadow: 5px 5px 10px #b3b3b3;

@@ -22,3 +22,13 @@
     padding: 4vmin 8vmin;
     margin-top: 6%;
 }
+.side-text-smart{
+    color: #EAEAEA;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: 10vmin;
+    position: absolute;
+    right: -60px;
+    bottom: 0;
+    transform: rotate(90deg);
+}

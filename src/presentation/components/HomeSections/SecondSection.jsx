@@ -4,7 +4,7 @@ import secondWatch from "../../../assets/secondWatch.png";
 import { watchFeatures } from "../../../domain/watchFeatures";
 import arrowRight from "../../../assets/Arrow - Right.svg";
 import "../HomeSections/styles/secondSection.css";
-import HeadingText from "../HeadingText.tsx";
+import HeadingText from "../HeadingText.jsx";
 
 const SecondSection = () => {
   const { Text } = Typography;
@@ -40,9 +40,13 @@ const SecondSection = () => {
             </Col>
           );
         })}
-        <Button className="buy-now-pri-btn buy-now-pri-sec-btn" type="primary">
+        <Button className="buy-now-pri-btn buy-now-pri-sec-btn" type="primary" href="https://amzn.eu/d/5Ngoo5z">
           Buy Now
         </Button>
+
+        <Text className="side-text-smart">
+          SMART
+        </Text>
       </Col>
     </Col>
   );

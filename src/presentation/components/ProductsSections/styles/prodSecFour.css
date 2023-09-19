@@ -1,0 +1,20 @@
+.prod-four-main-div{
+    background-image: url("../../../../assets/prodFourBg.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 30% 100%;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prod-four-decp{
+    font-family: 'Rubik', sans-serif;
+    color: #777586 !important;
+}
+.price-four-text{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}

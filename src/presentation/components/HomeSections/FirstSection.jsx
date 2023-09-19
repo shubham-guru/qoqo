@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Typography, Image, Button } from "antd";
 import { ArrowRightOutlined } from "@ant-design/icons"
 import watchImg from "../../../assets/watch.png";
+import smartWatch from "../../../assets/smartWatch.png"
 import "../HomeSections/styles/firstSection.css"
 
 const FirstSection = () => {
@@ -16,7 +17,7 @@ const FirstSection = () => {
             watch
           </Text>
           <Col className="button-col">
-            <Button className="buy-now-pri-btn" type="primary">
+            <Button className="buy-now-pri-btn" type="primary" href="https://amzn.eu/d/5Ngoo5z">
               Buy Now
             </Button>
             <Button className="buy-now-link-btn" type="link">
@@ -25,7 +26,11 @@ const FirstSection = () => {
             </Button>
           </Col>
         </Col>
+       
         <Col className="main-col-two" span={12}>
+        <div className='smart-watch'>
+          <Image id='banner-watch' src={smartWatch} width={170} alt='smart-watch' preview={false} />
+        </div>
           <div className="image-div">
             <Image
               className="product-img"

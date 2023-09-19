@@ -5,6 +5,7 @@ import FirstSection from "../components/HomeSections/FirstSection";
 import SecondSection from "../components/HomeSections/SecondSection";
 import ThirdSection from "../components/HomeSections/ThirdSection";
 import FourthSection from "../components/HomeSections/FourthSection";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <Footer />
     </>
   );
 };

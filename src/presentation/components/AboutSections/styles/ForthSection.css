@@ -1,0 +1,46 @@
+.about-fourth-sec .right .ant-image {
+  position: absolute;
+  right: 60px;
+  bottom: 36px;
+}
+.about-fourth-sec .right .right-img {
+  /* background-image: url("../../../../assets/value-sec.png"); */
+  background: url("../../../../assets/value-small.png"),
+    lightgray 50% / cover no-repeat;
+  /* Ful height */
+  height: 700px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.values-inner-content {
+  background: #ed302c;
+  box-shadow: 0px 30px 80px 0px rgba(25, 27, 45, 0.1);
+  width: 397px;
+  height: 497px;
+  position: absolute; /* 2 */
+  top: 50%; /* 3 */
+  transform: translate(0, -50%);
+  left: 10%;
+}
+.values-inner-content .values-content-title {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px; /* 170% */
+}
+.values-list .items .ant-typography {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 175% */
+}

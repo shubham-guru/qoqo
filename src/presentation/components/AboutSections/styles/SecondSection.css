@@ -1,0 +1,38 @@
+.about-second-right .right {
+  width: 959.831px;
+  height: 787.482px;
+  transform: rotate(13.468deg);
+  position: relative;
+  right: 35px;
+}
+.about-second-right .left {
+  position: absolute;
+  top: 0;
+  right: 41%;
+  top: -3%;
+}
+.img-content .title {
+  display: block;
+  color: #19020e;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Rubik", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px; /* 106.25% */
+  margin-bottom: 35px;
+}
+.img-content .sub-title {
+  color: #19020e;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+.img-content {
+  width: 465px;
+}

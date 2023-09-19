@@ -7,11 +7,10 @@
   margin-left: 390px;
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 .navbar-item{
-  color: black !important;
   font-weight: 500 !important;
 }
 

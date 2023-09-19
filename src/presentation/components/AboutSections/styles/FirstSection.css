@@ -1,0 +1,43 @@
+.inner-content .main-heading {
+  color: #19020e;
+  font-family: "Rubik", sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+}
+.inner-content {
+  position: absolute;
+  bottom: 140px;
+  left: 120px;
+  z-index: 3;
+}
+.inner-content .ant-typography:nth-child(2) {
+  position: absolute;
+  top: 135%;
+  left: 0;
+}
+.inner-content .main-heading span {
+  position: relative;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+}
+.round-point {
+  position: absolute;
+  right: -16px;
+  top: -5px;
+  z-index: -1;
+}
+.sub-content p {
+  width: 708px;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
