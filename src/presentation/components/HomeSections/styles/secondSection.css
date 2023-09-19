@@ -1,28 +1,33 @@
-.second-section-main-col{
+.second-section-main-col {
     display: flex;
     align-items: center;
     text-align: center;
     margin-top: 5%;
 }
-.descp-text{
+
+.descp-text {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     color: #777586;
 }
-.watch-feature-text{
+
+.watch-feature-text {
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
     line-height: 25px;
     margin-left: 1%;
 }
-.features-col{
+
+.features-col {
     display: flex;
 }
-.buy-now-pri-sec-btn{
+
+.buy-now-pri-sec-btn {
     padding: 4vmin 8vmin;
     margin-top: 6%;
 }
-.side-text-smart{
+
+.side-text-smart {
     color: #EAEAEA;
     font-family: 'Rubik', sans-serif;
     font-weight: bolder;
@@ -31,4 +36,24 @@
     right: -60px;
     bottom: 0;
     transform: rotate(90deg);
+}
+
+@media only screen and (min-width: 250px) {
+    .second-section-main-col {
+        flex-direction: column;
+        padding: 6%;
+    }
+    .side-text-smart{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 860px) {
+    .second-section-main-col {
+        flex-direction: row;
+        padding: 0%;
+    }
+    .side-text-smart{
+        display: flex;
+    }
 }

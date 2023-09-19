@@ -1,24 +1,27 @@
-.main-col{
+.main-col {
     padding-left: 6%;
 }
-.main-col-two{
+
+.main-col-two {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 3%;
 }
-.inner-col{
+
+.inner-col {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #f2f3f7;
-    height: 90vh;
 }
-.button-col{
+
+.button-col {
     margin-top: 9%;
     display: flex;
 }
-.buy-now-pri-btn{
+
+.buy-now-pri-btn {
     background-color: #ED302C;
     padding: 5vmin 10vmin;
     display: flex;
@@ -28,39 +31,80 @@
     box-shadow: 0 1px 7px -1px #e2201c;
     width: fit-content;
 }
-.buy-now-pri-btn:hover{
+
+.buy-now-pri-btn:hover {
     background-color: #e2201c !important;
 }
-.buy-now-link-btn{
+
+.buy-now-link-btn {
     display: flex;
     align-items: center;
     padding: 5vmin 5vmin;
     font-weight: bold;
     color: #000 !important;
 }
-.smart-watch{
+
+.smart-watch {
     position: absolute;
     top: -20px;
     right: 0;
 }
-.image-div{
+
+.image-div {
     box-shadow: 5px 5px 10px #b3b3b3;
     border-radius: 50%;
     padding: 12%;
 }
-.product-img{
+
+.product-img {
     position: relative;
 }
-.small-heading{
+
+.small-heading {
     line-height: 80px;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
     font-size: 2.6vmin;
     color: #ED302C;
 }
-.main-heading{
-    line-height: 60px;
+
+.main-heading {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 9vmin;
+}
+
+@media only screen and (min-width: 250px) {
+    .main-heading {
+        line-height: 45px;
+    }
+
+    .main-col-two {
+        display: none;
+    }
+
+    .inner-col {
+        height: 45vh;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .main-heading {
+        line-height: 80px;
+    }
+}
+
+@media only screen and (min-width: 860px) {
+
+    .main-heading {
+        line-height: 60px;
+    }
+
+    .main-col-two {
+        display: flex;
+    }
+
+    .inner-col {
+        height: 90vh;
+    }
 }

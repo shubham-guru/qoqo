@@ -10,7 +10,7 @@ const FirstSection = () => {
 
   return (
     <Col className="inner-col" span={24}>
-        <Col span={12} className="main-col">
+        <Col xs={24} lg={12} className="main-col">
           <Text className="small-heading">QOQO Watch AmoLite</Text> <br />
           <Text className="main-heading">
             Slimmest & <br /> Lightest <br /> <span id="span"> AMOLED </span>{" "}

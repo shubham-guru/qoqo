@@ -1,20 +1,34 @@
-.fourth-section-main-col{
-    height: 150vh;
+.fourth-section-main-col {
     margin-top: 10%;
     text-align: center;
 }
-.fourth-decp-text{
+
+.fourth-decp-text {
     font-family: 'Rubik', sans-serif;
     font-size: 2vmin;
     font-weight: 400;
 }
-.group-img{
+
+.group-img {
     width: 100% !important;
     margin-top: 3%;
 }
-.buy-now-btn-col{
+
+.buy-now-btn-col {
     background-color: antiquewhite;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media only screen and (min-width: 250px) {
+    .fourth-section-main-col {
+        height: 60vh;
+    }
+}
+
+@media only screen and (min-width: 860px) {
+    .fourth-section-main-col {
+        height: 150vh;
+    }
 }

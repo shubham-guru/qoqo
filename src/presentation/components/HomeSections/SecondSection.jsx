@@ -10,7 +10,7 @@ const SecondSection = () => {
   const { Text } = Typography;
   return (
     <Col span={24} className="second-section-main-col">
-      <Col span={12}>
+      <Col xs={24} lg={12}>
         <Image
           src={secondWatch}
           width={350}
@@ -18,7 +18,7 @@ const SecondSection = () => {
           preview={false}
         />
       </Col>
-      <Col span={12} style={{ textAlign: "left" }}>
+      <Col xs={24} lg={12} style={{ textAlign: "left" }}>
         <HeadingText text="QOQO Watch" span="AmoLite" /> <br />
         <Text className="descp-text">
           Bringing for you the 1.96-inch Large AMOLED Display QOQO Watch AmoLite

@@ -30,7 +30,7 @@ export const watchUsage = [
     },
     {
         icon: iconSix,
-        text: "Support for both Android and iOS"
+        text: "Support Android & iOS"
     },
     {
         icon: iconSeven,

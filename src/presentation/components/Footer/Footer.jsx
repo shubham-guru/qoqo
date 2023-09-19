@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <Row className='footer-main-row'>
         <Col span={24} style={{display: 'flex', padding: '5%'}}>
-            <Col span={8}>
+            <Col xs={0} lg={8}>
                 <Image src={footerImg} style={{marginBottom: "30px"}} width={100} alt='logo' preview={false} /> <br />
                 <Text className='footer-text'>Lorem Ipsum is simply <br /> dummy text of the printing.</Text> <br />
                 <Col style={{display: 'flex'}}>
@@ -30,7 +30,7 @@ const Footer = () => {
 
             </Col>
 
-            <Col span={8} style={{display: 'flex'}}>
+            <Col xs={12} lg={8} style={{display:"flex"}}>
                 <Col className='quick-links-col' span={20}>
                     <Title level={4} className='quick-link-head'>Quick Links</Title>
                     <Col className='quick-link-links-col'>
