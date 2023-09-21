@@ -1,25 +1,42 @@
-.prod-two-img{
+.prod-two-img {
     position: absolute;
     top: -470px;
     left: 150px;
 }
-.prod-two-decp{
+
+.prod-two-decp {
     font-family: 'Rubik', sans-serif;
     color: #eee !important;
     position: absolute;
 }
-.prod-tow-col{
+
+.prod-tow-col {
     position: absolute;
     top: 50%;
     right: 10%;
     transform: translate(-10%, -50%);
 }
-.price-text{
+
+.price-text {
     color: #fff !important;
     font-family: 'Rubik', sans-serif;
     line-height: 85px !important;
 }
-.prod-two-btn{
+
+.prod-two-btn {
     padding: 4vmin 8vmin;
     width: fit-content;
+}
+
+
+@media only screen and (min-width: 250px) {
+    .ant-image .ant-image-img {
+        height: 40vh;
+    }
+}
+
+@media only screen and (min-width: 860px) {
+    .ant-image .ant-image-img {
+        height: auto;
+    }
 }

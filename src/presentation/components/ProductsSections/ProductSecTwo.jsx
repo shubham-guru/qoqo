@@ -11,11 +11,11 @@ const ProductSecTwo = () => {
   return (
     <Col span={24} className='prod-two-main-col'>
         <Image src={prodTwoBg} className='prod-bg' alt='prod-two' preview={false} />
-        <Col span={12}>
+        <Col xs={0} lg={12}>
             <Image src={prodTwo} className='prod-two-img' width={230} alt='prod-two' preview={false} />
         </Col>
 
-        <Col span={12} className='prod-tow-col'>
+        <Col xs={24} lg={12} className='prod-tow-col'>
           <HeadingText text="QOQO Watch" span="AmoLite" size='7vmin' color='#fff' /> <br />
           <Text className="prod-two-decp">
             Bringing for you the 1.96-inch Large AMOLED Display QOQO Watch AmoLite to redefine your smartwatch experience.

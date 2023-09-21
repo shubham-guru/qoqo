@@ -1,20 +1,49 @@
-.prod-four-main-div{
-    background-image: url("../../../../assets/prodFourBg.png");
+.prod-four-main-div {
     background-position: cover;
     background-repeat: no-repeat;
     background-size: 30% 100%;
     width: 100%;
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.prod-four-decp{
+.prod-four-decp {
     font-family: 'Rubik', sans-serif;
     color: #777586 !important;
 }
-.price-four-text{
+
+.price-four-text {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
+}
+
+@media only screen and (min-width: 250px) {
+    .prod-three-col-2 {
+        display: none;
+    }
+
+    .prod-four-main-div {
+        background-image: url("");
+        height: 40vh;
+    }
+
+    .prod-four-col {
+        padding: 10%;
+    }
+}
+
+@media only screen and (min-width: 860px) {
+    .prod-three-col-2 {
+        display: flex;
+    }
+
+    .prod-four-main-div {
+        background-image: url("../../../../assets/prodFourBg.png");
+        height: 80vh;
+    }
+
+    .prod-four-col {
+        padding: 0%;
+    }
 }

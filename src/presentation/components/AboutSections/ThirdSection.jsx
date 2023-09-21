@@ -16,8 +16,8 @@ const AboutSecThird = () => {
           justifyContent: "center",
         }}
       >
-        <Col span={7}>
-          <div className="img-content">
+        <Col  span={7}>
+          <div className="third-sec-img-content">
             <Text className="title">Mission</Text>
             <Text className="sub-title">
               Improving lives with intuitive technology and seamless designs
@@ -27,7 +27,7 @@ const AboutSecThird = () => {
         <Col span={7}>
           <div className="about-third-right">
             <div className="right">
-              <Image width={600} height={600} src={sThree} preview={false} />
+              <Image className="third-sec-watch-img" width={600} height={600} src={sThree} preview={false} />
               <Image
                 width={350}
                 height={350}

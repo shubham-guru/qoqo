@@ -1,4 +1,4 @@
-.prod-three-main-div{
+.prod-three-main-div {
     background-image: url("../../../../assets/prodThreeBg.png");
     background-position: cover;
     background-repeat: no-repeat;
@@ -9,17 +9,33 @@
     align-items: center;
     justify-content: space-between;
 }
-.prod-three-col{
+
+.prod-three-col {
     left: 5%;
 }
-.prod-three-decp{
+
+.prod-three-decp {
     font-family: 'Rubik', sans-serif;
     color: #777586 !important;
 }
-.price-three-text{
+
+.price-three-text {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
 }
-.prod-three-col-2{
+
+.prod-three-col-2 {
     text-align: center;
+}
+
+@media only screen and (min-width: 250px) {
+    .prod-three-main-div {
+        height: 55vh;
+    }
+}
+
+@media only screen and (min-width: 860px) {
+    .prod-three-main-div {
+        height: 80vh;
+    }
 }

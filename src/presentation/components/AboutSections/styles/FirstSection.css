@@ -6,17 +6,19 @@
   font-weight: 700;
   line-height: 85px;
 }
+
 .inner-content {
   position: absolute;
-  bottom: 140px;
   left: 120px;
   z-index: 3;
 }
+
 .inner-content .ant-typography:nth-child(2) {
   position: absolute;
   top: 135%;
   left: 0;
 }
+
 .inner-content .main-heading span {
   position: relative;
   color: #fff;
@@ -26,12 +28,14 @@
   font-weight: 700;
   line-height: 85px;
 }
+
 .round-point {
   position: absolute;
   right: -16px;
   top: -5px;
   z-index: -1;
 }
+
 .sub-content p {
   width: 708px;
   color: #fff;
@@ -40,4 +44,16 @@
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
+}
+
+@media only screen and (min-width: 250px) {
+  .inner-content {
+    bottom: 250px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .inner-content {
+    bottom: 200px;
+  }
 }
