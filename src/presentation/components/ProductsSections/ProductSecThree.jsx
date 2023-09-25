@@ -23,8 +23,8 @@ const ProductSecThree = () => {
           </Button>
         </Col>
 
-        <Col span={12} className='prod-three-col-2'>
-            <Image src={prodThree} width={300} alt='prod-three' preview={false} />
+        <Col lg={12} className='prod-three-col-2'>
+            <Image src={prodThree} className='prod-three-image' alt='prod-three' preview={false} />
         </Col>
     </div>
   )

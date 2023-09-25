@@ -14,8 +14,6 @@
 .third-sec-img-content .title {
   display: block;
   color: #19020e;
-  leading-trim: both;
-  text-edge: cap;
   font-family: "Rubik", sans-serif;
   font-size: 80px;
   font-style: normal;
@@ -27,8 +25,6 @@
 
 .third-sec-img-content .sub-title {
   color: #19020e;
-  leading-trim: both;
-  text-edge: cap;
   font-family: "Rubik", sans-serif;
   font-size: 30px;
   font-style: normal;

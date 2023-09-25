@@ -27,15 +27,23 @@
 .prod-three-col-2 {
     text-align: center;
 }
+    .prod-three-image{
+        width: 70% !important;
+    }
 
 @media only screen and (min-width: 250px) {
     .prod-three-main-div {
         height: 55vh;
     }
+    .prod-three-image{
+        /* width: 40% !important; */
+    }
+   
 }
 
 @media only screen and (min-width: 860px) {
     .prod-three-main-div {
         height: 80vh;
     }
+    
 }

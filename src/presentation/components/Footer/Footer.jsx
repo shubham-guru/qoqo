@@ -45,7 +45,6 @@ const Footer = () => {
                     <Title level={4} className='quick-link-head'>Contact Us</Title>
                     <Col className='quick-link-links-col'>
                         <Link className='quick-links'>info@qoqo.com </Link>
-                        <Link className='quick-links'>+91 7285831282</Link>
                         <Link className='quick-links'>B38, Old DLF Colony, Sec 14, Gurgaon, Haryana, 122001</Link>
                         <Link className='quick-links'>www.qoqotech.in</Link>
                     </Col>

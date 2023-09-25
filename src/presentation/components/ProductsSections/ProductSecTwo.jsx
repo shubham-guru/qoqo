@@ -10,7 +10,7 @@ const ProductSecTwo = () => {
 
   return (
     <Col span={24} className='prod-two-main-col'>
-        <Image src={prodTwoBg} className='prod-bg' alt='prod-two' preview={false} />
+        <Col className='prod-bg' />
         <Col xs={0} lg={12}>
             <Image src={prodTwo} className='prod-two-img' width={230} alt='prod-two' preview={false} />
         </Col>

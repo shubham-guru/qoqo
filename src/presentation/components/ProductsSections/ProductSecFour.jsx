@@ -11,8 +11,8 @@ const ProductSecFour = () => {
 
   return (
     <div className="prod-four-main-div">
-      <Col span={12} className="prod-three-col-2">
-        <Image src={prodFour} width={340} alt="prod-three" preview={false} />
+      <Col span={12} className="prod-four-col-2">
+        <Image src={prodFour} width={340} alt="prod-four" preview={false} />
       </Col>
 
       <Col xs={24} lg={12} className="prod-four-col">

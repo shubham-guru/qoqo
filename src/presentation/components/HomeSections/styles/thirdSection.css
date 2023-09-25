@@ -27,7 +27,7 @@
 
 .watch-usage-text {
   font-family: "Rubik", sans-serif;
-  font-size: 13px;
+  font-size: 2vmin;
   font-weight: 400;
   line-height: 30px;
   margin-left: 4%;
@@ -71,7 +71,17 @@
   .third-section-main-col {
     flex-direction: column;
     padding-top: 10%;
-    height: 70vh;
+    height: 80vh;
+  }
+
+  .watch-usage-text{
+    font-size: 3vmin;
+  }
+
+  .btn-watch-usage{
+    margin-top: 10%;
+    margin-left: 30%;
+    padding: 6vmin 10vmin;
   }
 
   .usage-image-two-col{
