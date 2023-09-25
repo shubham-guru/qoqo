@@ -27,7 +27,7 @@ const MainMenu = () => {
             <Image src={logo} className="brand-font" alt="logo"  preview={false}/>
           </div>
           <div className="navbar-menu">
-            <div className="leftMenu">
+            <div className="leftMenu" style={{width:"50%"}}>
               <LeftMenu mode={"horizontal"} />
             </div>
             <Button className="menuButton" type="text" onClick={showDrawer}>

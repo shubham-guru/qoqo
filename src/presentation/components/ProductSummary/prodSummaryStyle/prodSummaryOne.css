@@ -1,0 +1,148 @@
+/* container */
+.prod-sum-one-container {
+    padding: 4% 5%;
+}
+
+/* title */
+.prod-sum-one-title {
+    font-size: 42px;
+    font-weight: 500;
+    display: block;
+}
+
+/* price container */
+.prod-sum-one-price-main-container {
+    margin-top: 2%;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.prod-sum-one-price-container {
+    display: flex;
+    width: 100%;
+}
+
+.prod-sum-one-original-price {
+    font-weight: 500;
+    font-size: 20px;
+    color: #ED302C !important;
+    text-decoration: line-through;
+}
+
+.prod-sum-one-discounted-price {
+    margin-left: 3%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* ratings */
+.prod-sum-one-ratings-container {
+    justify-content: right;
+    display: flex;
+    width: 100%;
+}
+
+.prod-sum-ratings {
+    margin-top: -2px;
+    font-size: 16px;
+    display: flex;
+}
+
+.prod-sum-one-ratings-text {
+    display: flex;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-left: 5%;
+}
+
+/* text container */
+.prod-sum-one-text-container {
+    margin-top: 8%;
+}
+
+.prod-sum-text {
+    color: rgb(84, 84, 84);
+    display: flex;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* buttons */
+.prod-sum-one-btn-container {
+    margin-top: 8%;
+    display: flex;
+    gap: 6%;
+}
+
+.prod-sum-one-btn {
+    padding: 3.5vmin 7vmin;
+    font-weight: 500;
+}
+
+.prod-sum-one-outlined-btn {
+    padding: 3.5vmin 7vmin;
+    font-weight: 500;
+    background-color: white;
+    color: #ED302C !important;
+    box-shadow: none;
+    border: 1.5px solid #ED302C !important;
+}
+
+.prod-sum-one-outlined-btn:hover {
+    color: white !important;
+}
+
+/* delivery details container */
+.delivery-content{
+    border: 1.5px solid rgb(238, 238, 238);
+    border-radius: 10px;
+    margin-top: 8%;
+    padding: 3% 5%;
+}
+
+.free-delivery-text-container{
+    margin: 3% 0%;
+}
+
+.free-delivery-text{
+    color: rgb(52, 52, 52);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.delivery-sub-text{
+    color: gray;
+    font-size: 12.5px;
+    margin-left: 9%;
+}
+
+.prod-sum-one-icon{
+    color: #ED302C;
+    font-size: 18px;
+    margin-right: 3%;
+}
+
+@media only screen and (min-width: 250px) {
+    .prod-sum-one-price-main-container {
+        flex-direction: column;
+    }
+
+    .prod-sum-one-ratings-container {
+        margin-top: 4%;
+        justify-content: left;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .prod-sum-one-price-main-container {
+        flex-direction: row;
+    }
+
+    .prod-sum-one-ratings-container {
+        margin-top: 0%;
+        justify-content: right;
+    }
+}

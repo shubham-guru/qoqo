@@ -5,6 +5,7 @@ import Home from "../presentation/screen/Home.jsx";
 import Products from "../presentation/screen/Products.jsx";
 import Qommunity from "../presentation/screen/Qommunity.jsx";
 import AboutUs from "../presentation/screen/AboutUs.jsx";
+import ProductSummary from "../presentation/screen/ProductSummary.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/product",
     element: <LayoutPage Component={Products} />,
+  },
+  {
+    path: "/product-summary",
+    element: <LayoutPage Component={ProductSummary} />,
   },
   {
     path: "/qo-ommunity",

@@ -1,0 +1,36 @@
+.prod-desc-title{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.prod-desc-sub-title{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.prod-desc-title-disc-container{
+    margin: 2% 0%;
+    color: rgb(53, 53, 53);
+}
+
+/* key features */
+.key-feature-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.key-features{
+    margin: 0.5% 0px;
+}
+
+.check-icon{
+    color: red;
+    font-size: 13px;
+}
+
+/* health & wellness */
+.health-container{
+    margin: 2% 0% 1% 0%;
+}
