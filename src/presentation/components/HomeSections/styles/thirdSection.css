@@ -3,7 +3,6 @@
   align-items: center;
   text-align: center;
   background-image: linear-gradient(to right, #251f1f, #44322f);
-  margin-top: 5%;
 }
 
 .icon-image {
@@ -11,13 +10,6 @@
   display: inline;
   border-radius: 50%;
   padding: 12px;
-}
-
-.watch-usage-outter-col {
-  width: 600px !important;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 40px;
 }
 
 .watch-usage-inner-col {
@@ -47,12 +39,8 @@
 }
 
 .usage-image-two-col {
-  background-image: url("../../../../assets/Rectangle 39890.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 100%;
-  height: 140vh;
+  overflow: hidden;
+  height: 120vh;
 }
 
 .side-text-watch {
@@ -69,10 +57,11 @@
 
 @media only screen and (min-width: 250px) {
   .third-section-main-col {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding-top: 10%;
     height: 80vh;
   }
+
 
   .watch-usage-text{
     font-size: 3vmin;
@@ -84,8 +73,8 @@
     padding: 6vmin 10vmin;
   }
 
-  .usage-image-two-col{
-    display: none;
+  .third-head-container{
+    padding-left: 0%;
   }
 
   .usage-image-one {
@@ -102,24 +91,24 @@
 }
 
 
-@media only screen and (min-width: 550px) {
-  .third-section-main-col {
-    height: 65vh;
-  }
-}
-
 @media only screen and (min-width: 860px) {
   .third-section-main-col {
     flex-direction: row;
     padding-top: 0%;
-    height: 140vh;
+    height: 120vh;
+  }
+
+  .third-left-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .third-head-container{
+    padding-left: 8%;
   }
 
   .side-text-watch {
-    display: flex;
-  }
-
-  .usage-image-two-col{
     display: flex;
   }
 

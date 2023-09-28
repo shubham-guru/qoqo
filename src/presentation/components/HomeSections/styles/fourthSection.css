@@ -1,16 +1,15 @@
 .fourth-section-main-col {
-    margin-top: 10%;
     text-align: center;
 }
 
 .fourth-decp-text {
     font-family: 'Rubik', sans-serif;
-    font-size: 2vmin;
+    font-size: 2.5vmin;
     font-weight: 400;
 }
 
 .group-img {
-    width: 100% !important;
+    width: 85% !important;
     margin-top: 3%;
 }
 
@@ -25,10 +24,16 @@
     .fourth-section-main-col {
         height: 60vh;
     }
+    .fourth-section-main-col {
+        margin-top: 0%;
+    }
 }
 
 @media only screen and (min-width: 860px) {
     .fourth-section-main-col {
         height: 150vh;
+    }
+    .fourth-section-main-col {
+        margin-top: 0%;
     }
 }

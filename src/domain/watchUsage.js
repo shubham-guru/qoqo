@@ -10,7 +10,7 @@ import iconSeven from "../assets/Group 14.png";
 export const watchUsage = [
     {
         icon: iconOne,
-        text: "1.91 inch Large HD Display"
+        text: "Large HD Display"
     },
     {
         icon: iconTwo,

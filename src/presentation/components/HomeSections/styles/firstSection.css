@@ -1,19 +1,15 @@
-.main-col {
-    padding-left: 6%;
-}
-
 .main-col-two {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 3%;
+    background-color: #f2f3f7;
 }
 
 .inner-col {
-    display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #f2f3f7;
+    flex-direction: row;
 }
 
 .button-col {
@@ -46,14 +42,14 @@
 
 .smart-watch {
     position: absolute;
-    top: -20px;
+    top: -70px;
     right: 0;
 }
 
 .image-div {
-    box-shadow: 5px 5px 10px #b3b3b3;
+    box-shadow: 2px 8px 15px 2px #d6d6d6;
     border-radius: 50%;
-    padding: 12%;
+    padding: 5%;
 }
 
 .product-img {
@@ -61,43 +57,79 @@
 }
 
 .small-heading {
-    line-height: 80px;
+    line-height: 10px;
+    display: block;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
-    font-size: 2.6vmin;
+    font-size: 3vmin;
     color: #ED302C;
 }
 
 .main-heading {
     font-family: 'Rubik', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 9vmin;
 }
 
 @media only screen and (min-width: 250px) {
+    .main-col {
+        padding: 6% 6% 6% 6%;
+    }
+    .main-col-two{
+        padding: 6% 0%;
+    }
+    .inner-col{
+        flex-direction: column-reverse;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+
     .main-heading {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
         line-height: 45px;
+        font-size: 7vmin;
+    }
+
+    .small-heading {
+        text-align: center;
     }
 
     .main-col-two {
-        display: none;
-    }
-
-    .inner-col {
-        height: 45vh;
-    }
-}
-
-@media only screen and (min-width: 550px) {
-    .main-heading {
-        line-height: 80px;
+        display: flex;
     }
 }
 
 @media only screen and (min-width: 860px) {
+    .main-col {
+        padding: 0% 0% 0% 6%;
+    }
+
+    .main-col-two{
+        padding: 0% 0%;
+    }
 
     .main-heading {
-        line-height: 60px;
+        display: flex;
+        text-align: left;
+        line-height: 65px;
+        font-size: 9vmin;
+    }
+
+    .small-heading {
+        text-align: left;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: start;
+        margin-bottom: 0%;
     }
 
     .main-col-two {
@@ -105,6 +137,7 @@
     }
 
     .inner-col {
-        height: 90vh;
+        height: 100vh;
+        flex-direction: row;
     }
 }

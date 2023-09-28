@@ -7,7 +7,7 @@ const Layout = ({Component}) => {
     <>
       <Row>
         <Col span={24} style={{zIndex: 100}}>
-          <MainMenu />
+          {/* <MainMenu /> */}
         </Col>
         <Col span={24}>
           <Component />

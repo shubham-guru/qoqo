@@ -2,24 +2,38 @@
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 5%;
+    height: 100vh;
+}
+
+.left-img-container {
+    display: flex;
+    justify-content: center;
 }
 
 .descp-text {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     color: #777586;
+    display: flex;
+    text-align: center;
 }
 
 .watch-feature-text {
-    font-family: 'Rubik', sans-serif;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 500;
     line-height: 25px;
     margin-left: 1%;
+    margin: 1% 0%;
+}
+
+.descp-text-conatiner {
+    margin-top: 2%;
 }
 
 .features-col {
     display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .buy-now-pri-sec-btn {
@@ -39,21 +53,59 @@
 }
 
 @media only screen and (min-width: 250px) {
-    .second-section-main-col {
-        flex-direction: column;
-        padding: 6%;
+    .left-img {
+        width: 280px !important;
     }
-    .side-text-smart{
+
+    .side-text-smart {
         display: none;
+    }
+
+    .head-text-conatiner {
+        text-align: center;
+        margin-top: -30%;
+    }
+
+    .descp-text-conatiner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .descp-text {
+        display: flex;
+        text-align: center;
+    }
+
+    .right-content{
+        padding: 0% 6%;
     }
 }
 
 @media only screen and (min-width: 860px) {
-    .second-section-main-col {
-        flex-direction: row;
-        padding: 0%;
+    .left-img {
+        width: 357px !important;
     }
-    .side-text-smart{
+
+    .side-text-smart {
         display: flex;
+    }
+
+    .head-text-conatiner {
+        text-align: left;
+        margin-top: 0%;
+    }
+
+    .descp-text-conatiner {
+        display: flex;
+        justify-content: start;
+    }
+
+    .descp-text {
+        display: flex;
+        text-align: left;
+    }
+
+    .right-content{
+        padding: 0% 0%;
     }
 }
