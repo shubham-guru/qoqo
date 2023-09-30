@@ -14,13 +14,13 @@ const ThirdSection = () => {
         <Col className='third-head-container'>
           <HeadingText text='QOQO Watch' span='Fit' color='#fff' />
         </Col>
-        <Row gutter={[0, 20]}>
+        <Row gutter={[0, 20]} style={{ marginTop: "3%" }} className='key-features-container'>
           {
             watchUsage.map((item, index) => {
               return (
                 <Col xs={24} lg={12} key={index} className='watch-usage-inner-col'>
                   <div className='icon-image'>
-                    <Image src={item.icon} alt='icon' preview={false} />
+                    <Image className='key-fetures-icon' src={item.icon} alt='icon' preview={false} />
                   </div>
                   <Text className='watch-usage-text'>{item.text}</Text>
                 </Col>
@@ -32,16 +32,15 @@ const ThirdSection = () => {
         <Button className="buy-now-pri-btn btn-watch-usage" type="primary" href="https://amzn.eu/d/5Ngoo5z">
           Buy Now
         </Button>
-
       </Col>
-
       <Col className='usage-image-two-col' xs={24} lg={11}>
         <Image src={handWatchImg} preview={false} />
       </Col>
+      <Text className="side-text-watch">
+        WATCH
+      </Text>
     </Row>
-    // <Text className="side-text-watch">
-    //   WATCH
-    // </Text>
+
   )
 }
 

@@ -1,11 +1,41 @@
-.prod-sec-one-col{
-    padding: 25vmin 15vmin;
+.prod-sec-one-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.decp-text{
+
+.decp-text {
     font-family: 'Rubik', sans-serif;
+    margin-top: -2.5%;
     font-size: 5vmin;
-    font-weight: 500;
+    font-weight: 600;
     color: #19020E;
     letter-spacing: 1px;
 }
 
+.get-ready-to {
+    line-height: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10vmin;
+    font-weight: 800;
+}
+
+.rock-your-wrist {
+    /* line-height: 60px; */
+    font-family: 'Rubik', sans-serif;
+    font-size: 10vmin;
+    font-weight: 800;
+    color: red;
+}
+
+@media only screen and (min-width: 250px) {
+    .prod-sec-one-col {
+        padding: 10vmin 5vmin 0vmin 5vmin;
+    }
+}
+
+@media only screen and (min-width: 860px) {
+    .prod-sec-one-col {
+        padding: 25vmin 15vmin;
+    }
+}

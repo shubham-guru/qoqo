@@ -1,6 +1,7 @@
 import React from "react";
-import { Col, Typography, Image, Button } from "antd";
+import { Col, Typography, Image, Button, Row } from "antd";
 
+import Vector2Img from "../../../assets/Vector2Img.svg"
 import prodFour from "../../../assets/prodFour.png";
 import HeadingText from "../HeadingText";
 
@@ -10,9 +11,10 @@ const ProductSecFour = () => {
   const { Text, Title } = Typography;
 
   return (
-    <div className="prod-four-main-div">
-      <Col span={12} className="prod-four-col-2">
-        <Image src={prodFour} width={340} alt="prod-four" preview={false} />
+    <Row className="prod-four-main-Row">
+      <Col xs={24} lg={12} className="prod-four-col-2">
+        <Image className="vectorimg" src={Vector2Img} preview={false} />
+        <Image className="watch-image" src={prodFour} alt="prod-four" preview={false} />
       </Col>
 
       <Col xs={24} lg={12} className="prod-four-col">
@@ -26,7 +28,7 @@ const ProductSecFour = () => {
           Buy Now
         </Button>
       </Col>
-    </div>
+    </Row>
   );
 };
 

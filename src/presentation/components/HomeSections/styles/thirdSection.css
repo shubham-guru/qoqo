@@ -1,15 +1,18 @@
 .third-section-main-col {
   display: flex;
-  align-items: center;
   text-align: center;
-  background-image: linear-gradient(to right, #251f1f, #44322f);
 }
 
 .icon-image {
   background-color: #ff9f84;
   display: inline;
   border-radius: 50%;
-  padding: 12px;
+}
+
+.third-left-container {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #251f1f, #44322f);
 }
 
 .watch-usage-inner-col {
@@ -19,7 +22,6 @@
 
 .watch-usage-text {
   font-family: "Rubik", sans-serif;
-  font-size: 2vmin;
   font-weight: 400;
   line-height: 30px;
   margin-left: 4%;
@@ -50,31 +52,37 @@
   color: #282121;
   position: absolute;
   right: -60px;
-  top: 100px;
+  top: 46%;
   transform: rotate(90deg);
 }
 
 
 @media only screen and (min-width: 250px) {
   .third-section-main-col {
-    flex-direction: column-reverse;
-    padding-top: 10%;
     height: 80vh;
   }
 
-
-  .watch-usage-text{
-    font-size: 3vmin;
+  .icon-image {
+    padding: 15px;
   }
 
-  .btn-watch-usage{
+  .watch-usage-text {
+    font-size: 5vmin;
+  }
+
+  .btn-watch-usage {
     margin-top: 10%;
     margin-left: 30%;
     padding: 6vmin 10vmin;
   }
 
-  .third-head-container{
+  .third-head-container {
     padding-left: 0%;
+  }
+
+  .third-left-container {
+    flex-direction: column;
+    height: 85vh;
   }
 
   .usage-image-one {
@@ -86,26 +94,35 @@
   }
 
   .watch-usage-inner-col {
-    padding-left: 20px;
+    padding-left: 50px;
   }
+
 }
 
 
 @media only screen and (min-width: 860px) {
   .third-section-main-col {
-    flex-direction: row;
     padding-top: 0%;
     height: 120vh;
   }
 
-  .third-left-container{
+  .icon-image {
+    padding: 12px;
+  }
+
+  .third-left-container {
+    height: 120vh;
     display: flex;
     flex-direction: column;
     text-align: left;
   }
 
-  .third-head-container{
+  .third-head-container {
     padding-left: 8%;
+  }
+
+  .watch-usage-text {
+    font-size: 3vmin;
   }
 
   .side-text-watch {

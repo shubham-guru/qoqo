@@ -6,7 +6,6 @@ import footerImg2 from "../../../assets/footerImg.png";
  
 import "../Footer/footer.css"
 
-
 const Footer = () => {
     const { Text, Title, Link } = Typography
 
@@ -30,8 +29,8 @@ const Footer = () => {
 
             </Col>
 
-            <Col xs={12} lg={8} style={{display:"flex"}}>
-                <Col className='quick-links-col' span={20}>
+            <Col xs={24} lg={8} style={{display:"flex"}}>
+                <Col className='quick-links-col' xs={12} lg={20}>
                     <Title level={4} className='quick-link-head'>Quick Links</Title>
                     <Col className='quick-link-links-col'>
                         <Link className='quick-links'>Home</Link>
@@ -41,11 +40,11 @@ const Footer = () => {
                     </Col>
                 </Col>
 
-                <Col className='quick-links-col' span={20}>
+                <Col className='quick-links-col' xs={12} lg={20}>
                     <Title level={4} className='quick-link-head'>Contact Us</Title>
                     <Col className='quick-link-links-col'>
                         <Link className='quick-links'>info@qoqo.com </Link>
-                        <Link className='quick-links'>B38, Old DLF Colony, Sec 14, Gurgaon, Haryana, 122001</Link>
+                        <Link className='quick-links'>B38, Old DLF Colony,  <br />Sec 14, Gurgaon, Haryana, 122001</Link>
                         <Link className='quick-links'>www.qoqotech.in</Link>
                     </Col>
                 </Col>

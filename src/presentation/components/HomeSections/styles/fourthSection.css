@@ -1,10 +1,13 @@
 .fourth-section-main-col {
+    display: flex;
+    justify-content: center;
     text-align: center;
+    padding: 3% 0%;
+    background-color: #f2f3f7;
 }
 
 .fourth-decp-text {
     font-family: 'Rubik', sans-serif;
-    font-size: 2.5vmin;
     font-weight: 400;
 }
 
@@ -14,26 +17,64 @@
 }
 
 .buy-now-btn-col {
-    background-color: antiquewhite;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
 }
 
 @media only screen and (min-width: 250px) {
     .fourth-section-main-col {
-        height: 60vh;
+        height: 140vh;
+        margin-top: 134%;
+        padding-top: 8%;
     }
-    .fourth-section-main-col {
-        margin-top: 0%;
+
+    .fourth-decp-text {
+        font-size: 4.2vmin;
+    }
+
+    .fourth-decp-text-container {
+        margin-bottom: 0%;
+    }
+
+    .fourth-sec-img-container {
+        margin-top: 10%;
+    }
+
+    .group24Img {
+        margin-top: -11%;
+    }
+
+    .group23Img {
+        margin-top: -27%;
+    }
+
+    .fourth-sec-img-container {
+        gap: 1% !important;
+    }
+
+    .buy-now-btn-col {
+        margin-top: -15%;
     }
 }
 
 @media only screen and (min-width: 860px) {
     .fourth-section-main-col {
-        height: 150vh;
-    }
-    .fourth-section-main-col {
         margin-top: 0%;
+        height: 150vh;
+        padding-top: 4%;    
+    }
+
+    .fourth-decp-text-container {
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+
+    .fourth-decp-text {
+        font-size: 2.5vmin;
+    }
+
+    .buy-now-btn-col {
+        margin-top: 2%;
     }
 }

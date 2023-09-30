@@ -59,24 +59,31 @@
     color: #9B9B9B !important;
     text-align: center;
     width: 100%;
-    margin-bottom: 2%;
+    margin-bottom: 6%;
     font-family: 'Rubik', sans-serif;
 }
 
 @media only screen and (min-width: 250px) {
     .footer-img-2-col {
-       display: none;
+        display: none;
+    }
+
+    .copyright-text {
+        margin-bottom: 6%;
     }
 }
 
 @media only screen and (min-width: 550px) {
     .footer-img-2-col {
-       display: flex;
+        display: flex;
     }
 }
 
 @media only screen and (min-width: 860px) {
     .footer-img-2-col {
         display: flex;
-     }
+    }
+    .copyright-text {
+        margin-bottom: 2%;
+    }
 }

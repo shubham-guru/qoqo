@@ -1,24 +1,36 @@
 import React from 'react'
-import { Col, Typography, Image, Button } from "antd";
+import { Col, Typography, Image, Button, Row } from "antd";
+
+import watchImg from "../../../assets/Group16Img.svg"
 import HeadingText from '../HeadingText.jsx';
 import groupImg from "../../../assets/watchGroupFeatures.png";
+import group23Img from "../../../assets/Group23Img.svg"
+import group24Img from "../../../assets/Group24Img.svg"
 import "../HomeSections/styles/fourthSection.css"
 
 const FourthSection = () => {
   const { Text } = Typography
 
   return (
-    <Col span={24} className='fourth-section-main-col'>
-      <HeadingText text='QOQO Watch' span='One' size={50} /> <br />
-      <Col span={24} style={{display:"flex", justifyContent:"center"}}>
-        <Col xs={20} lg={14}>
+    <Row className='fourth-section-main-col'>
+      <Col span={24}>
+        <HeadingText text='QOQO Watch' span='One' size={40} /> <br />
+      </Col>
+      <Col span={24} style={{ display: "flex", justifyContent: "center" }}>
+        <Col xs={20} lg={14} className='fourth-decp-text-container'>
           <Text className='fourth-decp-text'>
             Introducing the 1.85-inch HD IPS Touch Screen Curved Display QOQO WatchOne – the perfect blend of style, functionality, and convenience all wrapped around your wrist. This cutting-edge smartwatch offers an array of features to elevate your daily routine and keep you connected in a seamless and stylish manner.
           </Text>
         </Col>
       </Col>
 
-      <Col span={24}>
+      <Col xs={24} lg={0} className='fourth-sec-img-container'>
+        <Image preview={false} src={watchImg}/>
+        <Image preview={false} className='group24Img' src={group24Img}/>
+        <Image preview={false} className='group23Img' src={group23Img} />
+      </Col>
+
+      <Col xs={0} lg={24}>
         <Image src={groupImg} className='group-img' alt='group-img' preview={false} />
       </Col>
 
@@ -27,7 +39,7 @@ const FourthSection = () => {
           Buy Now
         </Button>
       </Col>
-    </Col>
+    </Row>
   )
 }
 

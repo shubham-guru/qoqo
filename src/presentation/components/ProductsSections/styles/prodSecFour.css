@@ -18,14 +18,31 @@
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
 }
-.prod-four-col-2{
-    position: absolute;
-    left: 5%;
+
+.prod-four-col-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 @media only screen and (min-width: 250px) {
-    .prod-four-col-2 {
-        display: none;
+    .prod-four-decp {
+        margin-bottom: -4%;
+        display: flex;
+        text-align: center;
+    }
+
+    .vectorimg{
+        width: 140px !important;
+        position: relative;
+        left: -20px;
+    }
+
+    .watch-image{
+        position: relative;
+        left: -70px;
+        width: 250px !important;
     }
 
     .prod-four-main-div {
@@ -35,20 +52,48 @@
 
     .prod-four-col {
         padding: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .prod-four-col-2 {
+        height: 50vh;
     }
 }
 
 @media only screen and (min-width: 860px) {
-    .prod-four-col-2 {
-        display: flex;
-    }
-
     .prod-four-main-div {
         background-image: url("../../../../assets/prodFourBg.png");
         height: 80vh;
     }
 
+    .vectorimg{
+        width: 400px !important;
+        position: relative;
+        left: -30px;
+    }
+
+    .watch-image{
+        width: 300px !important;
+        position: relative;
+        left: -230px;
+    }
+
+    .prod-four-decp {
+        margin-bottom: 0%;
+        display: inline;
+        text-align: left;
+    }
+
     .prod-four-col {
+        display: flex;
+        align-items: start;
         padding: 0%;
+    }
+
+    .prod-four-col-2 {
+        height: 100vh;
     }
 }
