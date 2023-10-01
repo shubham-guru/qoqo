@@ -1,3 +1,4 @@
+
 .prod-two-img {
     position: absolute;
     top: -470px;
@@ -56,6 +57,10 @@
         justify-content: center;
     }
 
+    .prod-two-main-col{
+        margin-bottom: 0%;
+    }
+
     .Img062{
         margin-top: -200px;
         position: relative;
@@ -69,6 +74,10 @@
     .prod-bg {
         display: flex;
         height: 100vh;
+    }
+
+    .prod-two-main-col{
+        margin-bottom: -4%;
     }
 
     .prod-two-decp {

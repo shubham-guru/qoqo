@@ -1,0 +1,26 @@
+.bg-inner-col {
+    background-image: url("../../../../assets//RectangleTwoBg.svg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-two-main-heading {
+    color: white;
+}
+
+.banner-two-btn {
+    color: white !important;
+}
+
+@media only screen and (min-width: 250px) {
+    .bg-inner-col {
+        background-image: linear-gradient(to right, #121010, #151212);
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .bg-inner-col {
+        background-image: url("../../../../assets/RectangleTwoBg.svg");
+    }
+}

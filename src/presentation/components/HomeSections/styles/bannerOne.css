@@ -1,0 +1,21 @@
+.banner-one-inner-col {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-col-two {
+    background-color: transparent !important;
+}
+
+@media only screen and (min-width: 250px) {
+    .banner-one-inner-col {
+        background-image: none;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .banner-one-inner-col {
+        background-image: url("../../../../assets/RectangleOneBg.svg");
+    }
+}

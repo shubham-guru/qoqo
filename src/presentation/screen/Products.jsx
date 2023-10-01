@@ -11,9 +11,9 @@ const Products = () => {
     <>
       <ProductSecOne />
       <ProductSecTwo />
-      {/* <ProductSecThree /> */}
+      <ProductSecThree />
       <ProductSecFour />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
